@@ -49,10 +49,10 @@
                     <div class="post-comments mb-4">
                         @foreach($post->comments as $comment)
                             <div class="row comment">
-                                <div class="col-12 col-sm-2">
+                                <div class="col-12 col-sm-3">
                                     <div class="comment-user">{{$comment->user?->name}}</div>
                                 </div>
-                                <div class="col-12 col-sm-6">
+                                <div class="col-12 col-sm-5">
                                     <div class="comment-content">{{$comment->text}}</div>
                                     <span class="comment-date">{{$comment->created_at}}</span>
                                 </div>

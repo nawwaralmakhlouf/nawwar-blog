@@ -1,5 +1,6 @@
-## About This Laravel Blog
+![alt text](public/assets/imgs/screenshot.jpg)
 
+## About This Laravel Blog
 A blog platform from scratch using PHP Laravel. 
 Allow users to:
 - Create accounts.
@@ -24,6 +25,7 @@ cd nawwar-blog
 ````
 npm install
 composer install
+npm run build
 ````
 2- Create .env file
 ````
@@ -41,3 +43,4 @@ php artisan migrate
 ````
 php artisan serve
 ````
+
